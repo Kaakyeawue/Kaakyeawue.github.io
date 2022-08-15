@@ -1,0 +1,187 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+ }
+ 
+ body
+ {
+background-image: url("../../images/bg1.jpg");
+background-size: cover;
+background-position: center;
+background-color: rgba(14, 85, 126, 0);
+font-family: sans-serif;
+ }
+
+.menu-bar
+{
+background-color: rgb(4, 58, 13);
+}
+
+.menu-bar ul
+{
+display: flex;
+list-style: none;
+background-color: 
+}
+
+.menu-bar li
+{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+	color: rgb(236, 227, 227);
+}
+
+
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: rgb(236, 227, 227);
+}
+
+.active, .menu-bar ul li:hover
+{
+	background:#2bab0d;
+	border-radius: 3px;
+	
+}
+
+.sub-menu-1
+{
+	display: none;
+	
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background: rgb(0,100,0);
+	margin-top: 15px;
+	margin-left: -15px;
+	
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display: block;
+	margin: 10px;
+	
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width: 150px;
+	padding: 15px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+	
+	
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom: none;
+	
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color: #b2ff00;
+	
+}
+
+.sub-menu-2
+{
+	display: none;
+	
+}
+
+.hover-me:hover .sub-menu-2
+{
+	display: block;
+	position: absolute;
+	background: rgb(0,100,0);
+	margin-top: -40px;
+	margin-left: 140px;
+	
+}
+
+
+.sidebar
+{
+	position: relative;
+	width: 20%;
+	height: 100%;
+	background-color: rgb(29, 173, 10);
+	border-radius: 0px;
+	float: right;
+	
+}
+
+.sidebar header{
+	color: #b2ff00;
+	text-align: center;
+	line-height: 70px;
+	font-size: 22px;
+	background:;
+
+}
+
+.sidebar form{
+	color: #aaca60;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	background:;
+
+}
+
+.sidebar form input{
+	margin: 20px;
+	color: #aaca60;
+	text-align: center;
+	line-height: 10px;
+	font-size: 18px;
+	background:;
+
+}
+
+.main
+{
+	border-radius: 12px;
+	border: 2px solid #000;
+}
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		
+
+
+
+
+
+
